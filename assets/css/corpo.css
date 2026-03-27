@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+section {
+    /* border: .1rem solid blue; */
+    display: flex;
+    flex: 1;
+}
+
+nav {
+    /* border: .1rem solid orangered; */
+    background-color: #eee;
+    padding: .5rem;
+}
+
+main {
+    /* border: .1rem solid purple; */
+    display: flex;
+    flex: 1;
+    padding: .5rem;
+}
