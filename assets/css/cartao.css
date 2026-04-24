@@ -40,7 +40,7 @@
 
 .categoria-da-noticia,
 .data-da-noticia,
-.autor-da-noticia{
+.autoria-da-noticia{
     font-size: .7rem;
 }
 
@@ -56,7 +56,7 @@
     margin-bottom: .5rem;
 }
 
-.autor-da-noticia{
+.autoria-da-noticia{
     font-style: italic;
     font-weight: bold;
 }
