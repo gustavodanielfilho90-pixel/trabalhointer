@@ -4,21 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site de notícias</title>
-    <script src="./assets/js/login.js"></script>
-    <link rel="stylesheet" href="assets/css/estilo.css">
+    <title>Meu Site de Notícias</title>
+    <script src="assets/js/login.js"></script>
+    <link rel="stylesheet" href="assets/css/login/estilo.css">
+    <script src="assets/js/login.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/b6e79c7bf1.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <header>
+        <div class="logo">A</div>
+        <h1 class="titulo">Meu site de Notícias</h1>
+    </header>
+
     <div class="container">
         <h1>Login</h1>
-        <form action="">
-            <input id="email" type="text" placeholder="informe seu email">
-            <input id="senha" type="password" placeholder="informe sua senha">
-            <button onclick="verificarCredenciais(); return false;">
-                entrar
+        <form>
+            <div class="input-grupo">
+                <i class="fas fa-envelope"></i>
+                <input id="email" type="email" placeholder="Informe seu email">
+            </div>
+            <div class="input-grupo">
+                <i class="fas fa-lock"></i>
+                <input id="senha" type="password" placeholder="Informe sua senha">
+            </div>
+            <button>
+               <i class="fas fa-sign-in-alt"></i> Entrar
             </button>
         </form>
+        <div class="links-auxiliares">
+            <a href="#">Esqueceu a senha?</a>
+            <span>-</span>
+            <a href="#">Registre-se</a>
+        </div>
     </div>
 </body>
 
